@@ -29,7 +29,7 @@ images:
 #         color: '#e24d0e'
 authors:
   - HB
-  - HugoMods
+
 ---
 
 我们提供了一个示例站点以方便你快速入门该主题。

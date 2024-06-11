@@ -1,6 +1,7 @@
 baseURL = 'https://wangcghy.github.io/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'zh-hans'
+title = '小白菜的博客'
+
 
 
 

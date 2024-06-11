@@ -29,7 +29,7 @@ images:
 #         color: '#e24d0e'
 authors:
   - HB
-  - HugoMods
+
 ---
 
 你可以毫不费力地从[新手主题](https://github.com/hbstack/theme)迁移至卡片主题。

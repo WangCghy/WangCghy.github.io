@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on HB Cards Theme</title>
-    <link>http://localhost:10563/en/series/</link>
-    <description>Recent content in Series on HB Cards Theme</description>
+    <title>Series on 小白菜</title>
+    <link>http://localhost:1313/en/series/</link>
+    <description>Recent content in Series on 小白菜</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <copyright>Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved.</copyright>
+    <copyright>Copyright © 2022-{year} [XBC](https://hugomods.com/). All Rights Reserved.</copyright>
     <lastBuildDate>Sat, 02 Dec 2023 11:47:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:10563/en/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docs</title>
-      <link>http://localhost:10563/en/series/docs/</link>
+      <link>http://localhost:1313/en/series/docs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:10563/en/series/docs/</guid>
+      <guid>http://localhost:1313/en/series/docs/</guid>
       <description></description>
     </item>
     <item>
       <title>Examples</title>
-      <link>http://localhost:10563/en/series/examples/</link>
+      <link>http://localhost:1313/en/series/examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:10563/en/series/examples/</guid>
+      <guid>http://localhost:1313/en/series/examples/</guid>
       <description></description>
     </item>
     <item>
       <title>Releases</title>
-      <link>http://localhost:10563/en/series/releases/</link>
+      <link>http://localhost:1313/en/series/releases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:10563/en/series/releases/</guid>
+      <guid>http://localhost:1313/en/series/releases/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
-      <link>http://localhost:10563/en/series/notes/</link>
+      <link>http://localhost:1313/en/series/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:10563/en/series/notes/</guid>
+      <guid>http://localhost:1313/en/series/notes/</guid>
       <description></description>
     </item>
   </channel>

@@ -18,7 +18,7 @@ images:
   - https://example-images.razonyang.com/math.webp?width=1920&height=1280
 authors:
   - HB
-  - HugoMods
+
 ---
 
 ## 使用 KaTeX 代码块

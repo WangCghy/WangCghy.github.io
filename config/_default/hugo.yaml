@@ -1,7 +1,16 @@
 baseURL: https://theme-cards.hbstack.dev/
-title: HB Cards Theme
+title: 小白菜
+params:
+  hb:
+    blog:
+      sidebar:
+        profile:
+          # avatar: /images/logo22.png
+          # avatar_size: 100
+    footer:
+      powered_by: false
 # Copyright, the {year} is the placeholder of this year.
-copyright: "Copyright © 2022-{year} [Hugo Modules](https://hugomods.com/) and [HB Framework](https://hbstack.dev/). All Rights Reserved."
+copyright: "Copyright © 2022-{year} [XBC](https://hugomods.com/). All Rights Reserved."
 defaultContentLanguage: zh-hans
 defaultContentLanguageInSubdir: false # when true, append the default language code into URL, i.e. /docs -> /en/docs.
 enableRobotsTXT: true
@@ -67,3 +76,10 @@ security:
       - ^HUGO
       - CI$
       - PWD
+# params:
+#   hb:
+#     blog:
+#       sidebar:
+#         profile:
+#           avatar: /images/logo11.png
+

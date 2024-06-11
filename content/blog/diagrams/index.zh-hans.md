@@ -18,7 +18,6 @@ images:
   - https://example-images.razonyang.com/flowchart.webp?width=1920&height=1280
 authors:
   - HB
-  - HugoMods
 ---
 
 ## 使用 Mermaid 代码块

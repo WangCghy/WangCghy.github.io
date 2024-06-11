@@ -1,9 +1,9 @@
 ---
-title: HB Framework Authors
-description: HB 框架代码和文档的贡献者
+title: 小白菜
+description: 既然选择了远方 便只顾风雨兼程
 images:
-  - https://avatars.githubusercontent.com/u/127904984?s=200&v=4
+  - https://image.wanc.eu.org/file/3886ea41c2ad1fc3ec667.png
 socials:
-  github: hbstack
-  gmail: mailto:support@hbstack.dev
+  github: WangCghy
+  gmail: wang4694301@gmail.com
 ---

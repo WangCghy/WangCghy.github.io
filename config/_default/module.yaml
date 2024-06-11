@@ -7,48 +7,63 @@ imports:
   - path: github.com/hbstack/theme-cards
 
   # see https://hbstack.dev/modules/look-and-feel/google-fonts/.
+  # Google 字体模块，用于引入和使用Google提供的字体。
   - path: github.com/hbstack/google-fonts
 
   # syntax highlighting, see https://hbstack.dev/en/docs/modules/syntax-highlighting/.
   # - path: github.com/hbstack/syntax-highlighting/styles/github-dark
+  #   代码高亮模块，此处注释掉了github-dark风格，可能是因为已经在其他地方配置或不适用。
 
-  # icons modules
+  # icons 模块
   - path: github.com/hugomods/icons/vendors/font-awesome
+  # Font Awesome 图标库模块，用于在网站中集成Font Awesome图标。
   # - path: github.com/hugomods/icons/vendors/mdi
   # - path: github.com/hugomods/icons/vendors/simple-icons
   # - path: github.com/hugomods/icons/vendors/tabler
   # - path: github.com/hugomods/icons/vendors/feather
 
-  # blog sidebar
+  # blog 侧边栏
+  # 侧边栏分类模块，用于在博客侧边栏展示文章分类。
   - path: github.com/hbstack/blog/modules/sidebar/profile
+  # 侧边栏个人简介模块，用于在博客侧边栏展示个人信息。
   - path: github.com/hbstack/blog/modules/sidebar/posts
+   # 侧边栏文章列表模块，用于在博客侧边栏展示文章列表。
   - path: github.com/hbstack/blog/modules/sidebar/taxonomies
+  # 侧边栏分类模块，用于在博客侧边栏展示文章分类。
 
-  # blog comments engine
+  # 博客评论引擎
+   # Giscus 评论模块，用于在博客中集成Giscus评论系统。
   - path: github.com/hbstack/blog/modules/giscus
   # - path: github.com/hbstack/blog/modules/disqus
   # - path: github.com/hbstack/blog/modules/utterances
 
   # blog table of contents scrollspy
+  # 目录滚动监视模块，用于实现博客文章的目录滚动关联。
   - path: github.com/hbstack/blog/modules/toc-scrollspy
 
   # blog content panel
+   # 内容面板模块，用于提供一个可隐藏显示的面板来展示额外的内容。
   - path: github.com/hbstack/blog/modules/content-panel
 
   # blog social share buttons
+  # 社交分享按钮模块，用于在博客文章中添加社交分享按钮。
   - path: github.com/hbstack/blog/modules/social-share-buttons
 
   # docs comments engine
+   # Giscus 评论模块，用于在文档中集成Giscus评论系统。
   - path: github.com/hbstack/docs/modules/giscus
   # - path: github.com/hbstack/docs/modules/utterances
   # - path: github.com/hbstack/docs/modules/disqus
 
+# 目录滚动监视模块，用于实现文档的目录滚动关联。
   # docs table of contents scrollspy
   - path: github.com/hbstack/docs/modules/toc-scrollspy
 
+# 内容面板模块，用于提供一个可隐藏显示的面板来展示额外的内容。
   # docs content panel
   - path: github.com/hbstack/docs/modules/content-panel
 
+ # 社交分享按钮模块，用于在文档中添加社交分享按钮。
   # docs social share buttons
   - path: github.com/hbstack/docs/modules/social-share-buttons
 
@@ -62,3 +77,4 @@ imports:
   # to remove unused modules, you need to replace the recommended module with modules your need.
   # see also https://hbstack.dev/en/2023/10/replace-meta-modules/.
   - path: github.com/hbstack/meta/recommended
+   # 推荐模块，用于引入一组推荐的模块，这些模块可能提供了网站所需的常见功能。
