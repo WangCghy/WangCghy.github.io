@@ -14,7 +14,7 @@
 description: hello !加油啊！.
 
 hb:
-  logo: images/logo.gif
+  logo: images/logo11.png
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
   full_width: false # when true, the layout takes full width globally.
