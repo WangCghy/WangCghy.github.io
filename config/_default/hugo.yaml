@@ -40,7 +40,7 @@ taxonomies:
   series: series
 
 build:
-  writeStats: true # required by PurgeCSS.
+  writeStats: true # required by PurgeCSS.用于收集站点所使用到的 classes、ids 和 tags，以供 PurgeCSS 清除未使用的 CSS。
 
 markup:
   goldmark:
