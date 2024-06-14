@@ -14,6 +14,10 @@
 description: hello !加油啊！.
 
 hb:
+  main_brand:
+    url: cooo0.cn
+    title: xbc
+    logo: images/logo.gif
   logo: images/logo11.png
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
