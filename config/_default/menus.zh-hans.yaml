@@ -17,16 +17,16 @@ main:
   #       vendor: font-awesome-solid
   #       name: headset
 
-  # - name: 文档
-  #   identifier: support-docs
-  #   parent: support
-  #   url: https://hbstack.dev/
-  #   weight: 1
-  #   params:
-  #     icon:
-  #       vendor: bs
-  #       name: book
-  #     description: 使用文档。
+  - name: 文档
+    identifier: support-docs
+    parent: support
+    url: https://cooo0.cn/
+    weight: 1
+    params:
+      icon:
+        vendor: bs
+        name: book
+      description: 使用文档。
 
   # - name: GitHub
   #   parent: support
