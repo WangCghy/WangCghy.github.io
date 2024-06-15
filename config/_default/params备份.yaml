@@ -1,27 +1,44 @@
-description: The cards theme template of HB (Hugo Bootstrap) Framework.
+# 这段 YAML 是一个网站配置文件，主要描述了网站的布局、样式、社交链接、博客和文档的设置等。下面是一些关键点的解释：
 
-# 默认配置不进行修改
+# hb 部分是网站主题的配置，包括全宽布局、头部和底部的设置等。
+# header 和 footer 分别表示头部和底部的配置，其中 socials 部分用于设置社交链接。
+# blog 部分是博客的配置，包括文章列表的列数、目录、社交分享按钮、侧边栏等。
+# docs 部分是文档的配置，可以设置 Giscus（一个 GitHub 讨论区插件）和社会分享按钮。
+# content_panel 部分用于配置内容面板，包括服务、仓库、分支和子路径等。
+# seo 部分是搜索引擎优化的配置，可以设置网站的图标。
+# pwa 部分是渐进式网页应用的配置，可以设置调试模式、清单文件的背景色和主题色等。
+# search 部分是搜索的配置，可以设置延迟阈值、最小匹配字符长度和大小写敏感等。
+# mermaid 部分用于配置 Mermaid（一个流程图和图表的库），可以设置 JavaScript 的 URL。
+# hugopress 部分是 HugoPress（一个基于 Hugo 的博客框架）的配置，可以设置自定义模块和钩子函数等。
+# 总体来说，这个 YAML 文件提供了丰富的配置选项，可以帮助用户定制自己的网站或博客
+description: hello !加油啊！.
+
 hb:
+  main_brand:
+    url: cooo0.cn
+    title: xbc
+    logo: images/logo.gif
+  logo: images/logo11.png
   # js_bundle_name: main # the JS bundle name.
   # css_bundle_name: main # the CSS bundle name.
   full_width: false # when true, the layout takes full width globally.
   header:
-    brand: HB # the brand name, leave it empty to use site's title.
+    brand:  # the brand name, leave it empty to use site's title.
     logo_bg: '#712cf9' # logo background color, used by logo with transparent background.
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
-      github: hbstack
-      # twitter: razonyang
-      rss: true
-      mastodon: https://techhub.social/@hbstack
+      # github: hbstack
+      # # twitter: razonyang
+      # rss: true
+      # mastodon: https://techhub.social/@hbstack
   footer:
     # see https://hbstack.dev/en/docs/modules/socials/.
     socials:
       _color: true # when false, remove the color of social icons.
-      github: hbstack
-      twitter: razonyang
+      # github: hbstack
+      # twitter: razonyang
       rss: true
-      mastodon: https://techhub.social/@hbstack
+      # mastodon: https://techhub.social/@hbstack
   blog:
     list_cols_md: 2
     list_cols_lg: 3
@@ -29,24 +46,27 @@ hb:
       position: end
     social_share_buttons:
       alignment: center
-      media:
-        - twitter
-        - facebook
-        - linkedin
-        - sinaweibo
+      # media:
+      #   - twitter
+      #   - facebook
+      #   - linkedin
+      #   - sinaweibo
     sidebar:
       sticky: true # set it to false to not stick the sidebar.
       width: .35 # the width of sidebar.
       position: start # the sidebar position: start (left) or end (right).
       profile:
+
+        # avatar: /images/logo22.png
+        avatar_size: 100
         # title: Profile title other than site title.
         # description: Profile description other than site description.
         avatar_size: 100
-        company: COMPANY
-        location: Earth
+        company: 
+        location: 中国上海
         socials:
-          github: hbstack
-          mastodon: https://techhub.social/@hbstack
+          # github: 
+          # mastodon: 
           rss: true
       posts:
         recent_count: 5 # the number of recent posts.
@@ -75,7 +95,7 @@ hb:
           limit: 20
           # title: Popular Tags # override the title.
     paginate: 12 # paginate.
-    post_thumbnail_placeholder: HB THEME # the text of thumbnail placeholder, default to site title.
+    post_thumbnail_placeholder: 小白菜的博客 # the text of thumbnail placeholder, default to site title.
     # post_thumbnail: false # whether to show the thumbnails.
     # post_date_format: ":date_long" # see https://gohugo.io/functions/dateformat/#datetime-formatting-layouts.
     home: # homepage settings.
@@ -115,11 +135,13 @@ hb:
 
 seo:
   favicons: # see https://hugomods.com/en/docs/seo/#favicons-module
-    icon: images/logo.png # use logo as favicon.
+    icon: images/logo11.png # use logo as favicon.
 
 # PWA settings, see https://hugomods.com/en/docs/pwa/#site-parameters.
 pwa:
   debug: false
+  # icon_path: images/logo11.png
+  # offline_image: images/logo11.png
   manifest:
     background_color: '#712cf9'
     theme_color: '#712cf9'
@@ -136,7 +158,6 @@ mermaid:
   # replace it with other CDNs or self-hosted URLs.
   js_url: https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs
 
-#默认配置不进行修改
 hugopress:
   modules:
     hb-custom:

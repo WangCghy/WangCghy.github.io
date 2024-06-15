@@ -76,10 +76,9 @@ security:
       - ^HUGO
       - CI$
       - PWD
-# params:
-#   hb:
-#     blog:
-#       sidebar:
-#         profile:
-#           avatar: /images/logo11.png
 
+
+#禁用语言
+languages:
+  en:
+    disabled: true

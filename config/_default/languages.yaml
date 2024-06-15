@@ -1,6 +1,9 @@
-
-
 zh-hans:
   languageName: 简体中文
   title: 小白菜的博客
+  weight: 1
+  
+en:
+  languageName: English
   weight: 2
+
