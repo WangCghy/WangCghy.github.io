@@ -82,3 +82,4 @@ security:
 languages:
   en:
     disabled: true
+# sectionPagesMenu: main
